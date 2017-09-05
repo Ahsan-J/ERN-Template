@@ -1,0 +1,24 @@
+{
+  "name": "myboiler",
+  "version": "1.0.0",
+  "description": "Express, WebPack, BootStrap Connected with React JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack && nodemon server.js --ext jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahsan Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5",
+    "react-router-dom":"^4.2.2",
+    "react-router":"^4.2.0"
+  }
+}
